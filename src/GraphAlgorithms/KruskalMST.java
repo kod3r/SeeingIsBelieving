@@ -37,8 +37,8 @@ class DisjointSets {
 };
 
 public class KruskalMST {
-	Graph gph;
-	Graph MST;
+	public Graph gph;
+	public Graph MST;
 
 	public void setup() {
 		Scanner s = new Scanner(System.in);

@@ -1,6 +1,5 @@
 package GraphAlgorithms;
 
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map.Entry;
@@ -24,8 +23,8 @@ class Node {
 public class PrimsMST {
 
 	private static int INF = 100000;
-	Graph gph;
-	Graph MST;
+	public Graph gph;
+	public Graph MST;
 
 	public void setup() {
 		Scanner s = new Scanner(System.in);
